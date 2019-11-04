@@ -1,0 +1,128 @@
+<div class="w3agile-validation w3ls-validation">
+    <div class="agile-validation agile_info_shadow">
+        <div class="validation-grids widget-shadow" data-example-id="basic-forms">
+            <div class="input-info">
+                <h3 class="w3_inner_tittle two">Thay đổi thông tin khách hàng</h3>
+            </div>
+            <div class="form-body form-body-info">
+                <form data-toggle="validator" novalidate="true" action="#" method="post">
+                    <div class="form-group valid-form">
+                        <input type="text" class="form-control" id="inputName" placeholder="Tài khoản" required="">
+                    </div>
+                    <div class="form-group has-feedback">
+                        <input type="email" class="form-control" id="inputEmail" placeholder="Email"
+                            data-error="Bruh, that email address is invalid" required="">
+                        <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                        <span class="help-block with-errors">Vui lòng điền địa chỉ Email</span>
+                    </div>
+                    <div class="form-group">
+                        <input type="password" data-toggle="validator" data-minlength="6" class="form-control"
+                            id="inputPassword" placeholder="Mật khẩu cũ" required="">
+                        <span class="help-block">Ít nhất 6 kí tự</span>
+                    </div>
+                    <div class="form-group">
+                        <input type="password" data-toggle="validator" data-minlength="6" class="form-control"
+                            id="inputPassword" placeholder="Mật khẩu mới" required="">
+                        <span class="help-block">Ít nhất 6 kí tự</span>
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" id="inputPasswordConfirm"
+                            data-match="#inputPassword" data-match-error="Mật khẩu nhập lại không đúng"
+                            placeholder="Nhập lại mật khẩu" required="">
+                        <div class="help-block with-errors"></div>
+                    </div>
+                    <div class="form-group">
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="gender" required="">
+                                Nữ
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="gender" required="">
+                                Nam
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" id="terms" data-error="Before you wreck yourself" required="">
+                                Tôi đã đọc và chấp nhận các điều khoản sử dụng.
+                            </label>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary">Xác nhận</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="agile-validation agile_info_shadow">
+        <div class="validation-grids validation-grids-right">
+            <div class="widget-shadow login-form-shadow" data-example-id="basic-forms">
+                <div class="input-info">
+                    <h3 class="w3_inner_tittle two">Login form :</h3>
+                </div>
+                <div class="form-body form-body-info">
+                    <form data-toggle="validator" novalidate="true" action="#" method="post">
+                        <div class="form-group has-feedback">
+                            <input type="email" class="form-control" id="inputEmail" placeholder="Enter Your Email"
+                                data-error="Bruh, that email address is invalid" required="">
+                            <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                        </div>
+                        <div class="form-group">
+                            <input type="password" data-toggle="validator" data-minlength="6" class="form-control"
+                                id="inputPassword" placeholder="Password" required="">
+                        </div>
+                        <div class="bottom">
+                            <div class="form-group">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox" id="terms" data-error="Before you wreck yourself"
+                                            required="">
+                                        Remember me
+                                    </label>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-primary disabled">Login</button>
+                            </div>
+                            <div class="clearfix"> </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="agile-validation w3ls-validate agile_info_shadow">
+        <div class="inline-form widget-shadow agile-widget-shadow">
+            <div class="input-info">
+                <h3 class="w3_inner_tittle two">Recover form :</h3>
+            </div>
+            <div class="form-body form-body-info">
+                <form data-toggle="validator" novalidate="true" action="#" method="post">
+                    <div class="form-group has-feedback">
+                        <input type="email" class="form-control" id="inputEmail" placeholder="Email"
+                            data-error="Bruh, that email address is invalid" required="">
+                        <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" data-toggle="validator" data-minlength="6" class="form-control"
+                            id="inputPassword" placeholder="Enter your phone number" required="">
+                    </div>
+                    <div class="bottom">
+                        <div class="form-group recover-button">
+                            <button type="submit" class="btn btn-primary disabled">Login</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
