@@ -14,4 +14,16 @@ router.get('/quanlydonhang.html', function(req, res, next) {
 router.get('/thaydoithongtin.html', function(req, res, next) {
   res.render('infochange');
 });
+router.get('/bangdulieu.html', function(req, res, next) {
+  res.render('table');
+});
+router.get('/bieudo.html', function(req, res, next) {
+  res.render('charts');
+});
+router.get('/dangky.html', function(req, res, next) {
+  res.render('signup');
+});
+router.get('/dangnhap.html', function(req, res, next) {
+  res.render('login');
+});
 module.exports = router;
